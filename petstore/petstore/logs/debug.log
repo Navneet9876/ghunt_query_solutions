@@ -1,0 +1,66 @@
+[DEBUG] 2020-10-27 11:27:37.725 LOGGER-DEBUG  - {
+  "uri": "https://petstore.swagger.io/v2/pet/findByStatus?status\u003davailable",
+  "methodType": "GET"
+}
+[DEBUG] 2020-10-27 11:27:38.058 LOGGER-DEBUG  - Performing Get Request : https://petstore.swagger.io/v2/pet/findByStatus?status=available
+[DEBUG] 2020-10-27 11:27:41.100 LOGGER-DEBUG  - Response : 
+StatusCode = OK_200
+ContentType = APPLICATION_JSON
+[DEBUG] 2020-10-27 11:27:41.609 LOGGER-DEBUG  - {
+  "uri": "https://petstore.swagger.io/v2/pet",
+  "requestBody": "{\n  \"id\": 1603778252238,\n  \"category\": {\n    \"id\": 1,\n    \"name\": \"Dog\"\n  },\n  \"name\": \"German Shepherd\",\n  \"photoUrls\": [\n    \"https://upload.wikimedia.org/wikipedia/commons/d/d0/German_Shepherd_-_DSC_0346_%2810096362833%29.jpg\"\n  ],\n  \"tags\": [\n    {\n      \"id\": 1,\n      \"name\": \"German\"\n    }\n  ],\n  \"status\": \"available\"\n}",
+  "methodType": "POST",
+  "headers": {
+    "accept": "application/json",
+    "Content-Type": "application/json"
+  }
+}
+[DEBUG] 2020-10-27 11:27:41.614 LOGGER-DEBUG  - Performing POST Request : https://petstore.swagger.io/v2/pet
+[DEBUG] 2020-10-27 11:27:42.999 LOGGER-DEBUG  - Response : 
+StatusCode = OK_200
+ContentType = APPLICATION_JSON
+[DEBUG] 2020-10-27 11:27:42.999 LOGGER-DEBUG  - {
+  "uri": "https://petstore.swagger.io/v2/pet/findByStatus?status\u003davailable",
+  "methodType": "GET"
+}
+[DEBUG] 2020-10-27 11:27:43.000 LOGGER-DEBUG  - Performing Get Request : https://petstore.swagger.io/v2/pet/findByStatus?status=available
+[DEBUG] 2020-10-27 11:27:44.372 LOGGER-DEBUG  - Response : 
+StatusCode = OK_200
+ContentType = APPLICATION_JSON
+[DEBUG] 2020-10-27 11:27:44.741 LOGGER-DEBUG  - {
+  "uri": "https://petstore.swagger.io/v2/pet",
+  "requestBody": "{\n  \"id\": 1603778252238,\n  \"category\": {\n    \"id\": 1,\n    \"name\": \"Dog\"\n  },\n  \"name\": \"German Shepherd\",\n  \"photoUrls\": [\n    \"https://upload.wikimedia.org/wikipedia/commons/d/d0/German_Shepherd_-_DSC_0346_%2810096362833%29.jpg\"\n  ],\n  \"tags\": [\n    {\n      \"id\": 1,\n      \"name\": \"German\"\n    }\n  ],\n  \"status\": \"sold\"\n}",
+  "methodType": "PUT",
+  "headers": {
+    "accept": "application/json",
+    "Content-Type": "application/json"
+  }
+}
+[DEBUG] 2020-10-27 11:27:44.744 LOGGER-DEBUG  - Performing PUT Request : https://petstore.swagger.io/v2/pet
+[DEBUG] 2020-10-27 11:27:46.076 LOGGER-DEBUG  - Response : 
+StatusCode = OK_200
+ContentType = APPLICATION_JSON
+[DEBUG] 2020-10-27 11:27:46.077 LOGGER-DEBUG  - {
+  "uri": "https://petstore.swagger.io/v2/pet/findByStatus?status\u003dsold",
+  "methodType": "GET"
+}
+[DEBUG] 2020-10-27 11:27:46.078 LOGGER-DEBUG  - Performing Get Request : https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+[DEBUG] 2020-10-27 11:27:47.433 LOGGER-DEBUG  - Response : 
+StatusCode = OK_200
+ContentType = APPLICATION_JSON
+[DEBUG] 2020-10-27 11:27:47.496 LOGGER-DEBUG  - {
+  "uri": "https://petstore.swagger.io/v2/pet/1603778252238",
+  "methodType": "DELETE"
+}
+[DEBUG] 2020-10-27 11:27:47.497 LOGGER-DEBUG  - Performing DELETE Request : https://petstore.swagger.io/v2/pet/1603778252238
+[DEBUG] 2020-10-27 11:27:48.881 LOGGER-DEBUG  - Response : 
+StatusCode = OK_200
+ContentType = APPLICATION_JSON
+[DEBUG] 2020-10-27 11:27:48.882 LOGGER-DEBUG  - {
+  "uri": "https://petstore.swagger.io/v2/pet/findByStatus?status\u003dsold",
+  "methodType": "GET"
+}
+[DEBUG] 2020-10-27 11:27:48.883 LOGGER-DEBUG  - Performing Get Request : https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+[DEBUG] 2020-10-27 11:27:50.232 LOGGER-DEBUG  - Response : 
+StatusCode = OK_200
+ContentType = APPLICATION_JSON
